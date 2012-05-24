@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16867624149F73ED00A1D738 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 16867623149F73ED00A1D738 /* Station.m */; };
+		16899231149A3AEA005F4A38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899230149A3AEA005F4A38 /* UIKit.framework */; };
+		16899233149A3AEA005F4A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899232149A3AEA005F4A38 /* Foundation.framework */; };
+		16899235149A3AEA005F4A38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899234149A3AEA005F4A38 /* CoreGraphics.framework */; };
+		16899237149A3AEA005F4A38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899236149A3AEA005F4A38 /* CoreData.framework */; };
+		1689923D149A3AEA005F4A38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1689923B149A3AEA005F4A38 /* InfoPlist.strings */; };
+		1689923F149A3AEA005F4A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689923E149A3AEA005F4A38 /* main.m */; };
+		16899243149A3AEA005F4A38 /* EnvibusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16899242149A3AEA005F4A38 /* EnvibusAppDelegate.m */; };
+		16899246149A3AEA005F4A38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16899244149A3AEA005F4A38 /* MainStoryboard.storyboard */; };
+		16899249149A3AEA005F4A38 /* Envibus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16899247149A3AEA005F4A38 /* Envibus.xcdatamodeld */; };
+		1689924C149A3AEA005F4A38 /* EnvibusMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689924B149A3AEA005F4A38 /* EnvibusMainViewController.m */; };
+		1689924F149A3AEA005F4A38 /* EnvibusFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689924E149A3AEA005F4A38 /* EnvibusFlipsideViewController.m */; };
+		1689925D149A3B74005F4A38 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1689925B149A3B74005F4A38 /* MainStoryboard.storyboard */; };
+		16899260149A3C23005F4A38 /* EnvibusAddStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689925F149A3C23005F4A38 /* EnvibusAddStationViewController.m */; };
+		1689926A149A3CF9005F4A38 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899269149A3CF9005F4A38 /* libxml2.dylib */; };
+		16899270149A3D52005F4A38 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689926D149A3D52005F4A38 /* HTMLNode.m */; };
+		16899271149A3D52005F4A38 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689926F149A3D52005F4A38 /* HTMLParser.m */; };
+		16C0E3AE149B58B600C507E2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C0E3AD149B58B600C507E2 /* Constants.m */; };
+		16C1ED33149DFC6800A65A63 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C1ED32149DFC6800A65A63 /* Utilities.m */; };
+		16CAD33514A387CC00018B0F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 16CAD33414A387CC00018B0F /* background.jpg */; };
+		16EA48F5149FD2B60000EBF9 /* EnvibusMainContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EA48F4149FD2B60000EBF9 /* EnvibusMainContentController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16867622149F73ED00A1D738 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		16867623149F73ED00A1D738 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		1689922C149A3AEA005F4A38 /* Envibus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Envibus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16899230149A3AEA005F4A38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16899232149A3AEA005F4A38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16899234149A3AEA005F4A38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16899236149A3AEA005F4A38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1689923A149A3AEA005F4A38 /* Envibus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Envibus-Info.plist"; sourceTree = "<group>"; };
+		1689923C149A3AEA005F4A38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1689923E149A3AEA005F4A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16899240149A3AEA005F4A38 /* Envibus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Envibus-Prefix.pch"; sourceTree = "<group>"; };
+		16899241149A3AEA005F4A38 /* EnvibusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnvibusAppDelegate.h; sourceTree = "<group>"; };
+		16899242149A3AEA005F4A38 /* EnvibusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvibusAppDelegate.m; sourceTree = "<group>"; };
+		16899248149A3AEA005F4A38 /* Envibus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Envibus.xcdatamodel; sourceTree = "<group>"; };
+		1689924A149A3AEA005F4A38 /* EnvibusMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnvibusMainViewController.h; sourceTree = "<group>"; };
+		1689924B149A3AEA005F4A38 /* EnvibusMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvibusMainViewController.m; sourceTree = "<group>"; };
+		1689924D149A3AEA005F4A38 /* EnvibusFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnvibusFlipsideViewController.h; sourceTree = "<group>"; };
+		1689924E149A3AEA005F4A38 /* EnvibusFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvibusFlipsideViewController.m; sourceTree = "<group>"; };
+		1689925C149A3B74005F4A38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1689925E149A3C23005F4A38 /* EnvibusAddStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvibusAddStationViewController.h; sourceTree = "<group>"; };
+		1689925F149A3C23005F4A38 /* EnvibusAddStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvibusAddStationViewController.m; sourceTree = "<group>"; };
+		16899269149A3CF9005F4A38 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1689926C149A3D52005F4A38 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		1689926D149A3D52005F4A38 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		1689926E149A3D52005F4A38 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		1689926F149A3D52005F4A38 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		16C0E3AC149B58B600C507E2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		16C0E3AD149B58B600C507E2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		16C1ED31149DFC6700A65A63 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		16C1ED32149DFC6800A65A63 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		16CAD33414A387CC00018B0F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		16EA48F3149FD2B60000EBF9 /* EnvibusMainContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvibusMainContentController.h; sourceTree = "<group>"; };
+		16EA48F4149FD2B60000EBF9 /* EnvibusMainContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvibusMainContentController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16899229149A3AEA005F4A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1689926A149A3CF9005F4A38 /* libxml2.dylib in Frameworks */,
+				16899231149A3AEA005F4A38 /* UIKit.framework in Frameworks */,
+				16899233149A3AEA005F4A38 /* Foundation.framework in Frameworks */,
+				16899235149A3AEA005F4A38 /* CoreGraphics.framework in Frameworks */,
+				16899237149A3AEA005F4A38 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16899221149A3AE9005F4A38 = {
+			isa = PBXGroup;
+			children = (
+				16899238149A3AEA005F4A38 /* Envibus */,
+				1689922F149A3AEA005F4A38 /* Frameworks */,
+				1689922D149A3AEA005F4A38 /* Products */,
+				16899269149A3CF9005F4A38 /* libxml2.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+		1689922D149A3AEA005F4A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1689922C149A3AEA005F4A38 /* Envibus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1689922F149A3AEA005F4A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16899230149A3AEA005F4A38 /* UIKit.framework */,
+				16899232149A3AEA005F4A38 /* Foundation.framework */,
+				16899234149A3AEA005F4A38 /* CoreGraphics.framework */,
+				16899236149A3AEA005F4A38 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16899238149A3AEA005F4A38 /* Envibus */ = {
+			isa = PBXGroup;
+			children = (
+				16E480AD149C9B7800B07568 /* C files */,
+				16899275149A5634005F4A38 /* Head files */,
+				16899261149A3C48005F4A38 /* Model files */,
+				1689926B149A3D04005F4A38 /* HtmlParser */,
+				16E27404149A992400FA2926 /* Resource */,
+				16899239149A3AEA005F4A38 /* Supporting Files */,
+			);
+			path = Envibus;
+			sourceTree = "<group>";
+		};
+		16899239149A3AEA005F4A38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1689923A149A3AEA005F4A38 /* Envibus-Info.plist */,
+				1689923B149A3AEA005F4A38 /* InfoPlist.strings */,
+				1689923E149A3AEA005F4A38 /* main.m */,
+				16899240149A3AEA005F4A38 /* Envibus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16899261149A3C48005F4A38 /* Model files */ = {
+			isa = PBXGroup;
+			children = (
+				16899247149A3AEA005F4A38 /* Envibus.xcdatamodeld */,
+				16867622149F73ED00A1D738 /* Station.h */,
+				16867623149F73ED00A1D738 /* Station.m */,
+			);
+			name = "Model files";
+			sourceTree = "<group>";
+		};
+		1689926B149A3D04005F4A38 /* HtmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				1689926C149A3D52005F4A38 /* HTMLNode.h */,
+				1689926D149A3D52005F4A38 /* HTMLNode.m */,
+				1689926E149A3D52005F4A38 /* HTMLParser.h */,
+				1689926F149A3D52005F4A38 /* HTMLParser.m */,
+			);
+			name = HtmlParser;
+			sourceTree = "<group>";
+		};
+		16899275149A5634005F4A38 /* Head files */ = {
+			isa = PBXGroup;
+			children = (
+				16C1ED35149DFE3000A65A63 /* util */,
+				16899241149A3AEA005F4A38 /* EnvibusAppDelegate.h */,
+				1689924A149A3AEA005F4A38 /* EnvibusMainViewController.h */,
+				16EA48F3149FD2B60000EBF9 /* EnvibusMainContentController.h */,
+				1689924D149A3AEA005F4A38 /* EnvibusFlipsideViewController.h */,
+				1689925E149A3C23005F4A38 /* EnvibusAddStationViewController.h */,
+			);
+			name = "Head files";
+			sourceTree = "<group>";
+		};
+		16C1ED34149DFE2200A65A63 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				16C0E3AD149B58B600C507E2 /* Constants.m */,
+				16C1ED32149DFC6800A65A63 /* Utilities.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		16C1ED35149DFE3000A65A63 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				16C0E3AC149B58B600C507E2 /* Constants.h */,
+				16C1ED31149DFC6700A65A63 /* Utilities.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		16E27404149A992400FA2926 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				16CAD33414A387CC00018B0F /* background.jpg */,
+				1689925B149A3B74005F4A38 /* MainStoryboard.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		16E480AD149C9B7800B07568 /* C files */ = {
+			isa = PBXGroup;
+			children = (
+				16C1ED34149DFE2200A65A63 /* util */,
+				16899242149A3AEA005F4A38 /* EnvibusAppDelegate.m */,
+				1689924B149A3AEA005F4A38 /* EnvibusMainViewController.m */,
+				16EA48F4149FD2B60000EBF9 /* EnvibusMainContentController.m */,
+				1689924E149A3AEA005F4A38 /* EnvibusFlipsideViewController.m */,
+				1689925F149A3C23005F4A38 /* EnvibusAddStationViewController.m */,
+			);
+			name = "C files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1689922B149A3AEA005F4A38 /* Envibus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16899252149A3AEA005F4A38 /* Build configuration list for PBXNativeTarget "Envibus" */;
+			buildPhases = (
+				16899228149A3AEA005F4A38 /* Sources */,
+				16899229149A3AEA005F4A38 /* Frameworks */,
+				1689922A149A3AEA005F4A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Envibus;
+			productName = Envibus;
+			productReference = 1689922C149A3AEA005F4A38 /* Envibus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16899223149A3AE9005F4A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 16899226149A3AE9005F4A38 /* Build configuration list for PBXProject "Envibus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16899221149A3AE9005F4A38;
+			productRefGroup = 1689922D149A3AEA005F4A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1689922B149A3AEA005F4A38 /* Envibus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1689922A149A3AEA005F4A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1689923D149A3AEA005F4A38 /* InfoPlist.strings in Resources */,
+				16899246149A3AEA005F4A38 /* MainStoryboard.storyboard in Resources */,
+				1689925D149A3B74005F4A38 /* MainStoryboard.storyboard in Resources */,
+				16CAD33514A387CC00018B0F /* background.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16899228149A3AEA005F4A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1689923F149A3AEA005F4A38 /* main.m in Sources */,
+				16899243149A3AEA005F4A38 /* EnvibusAppDelegate.m in Sources */,
+				16899249149A3AEA005F4A38 /* Envibus.xcdatamodeld in Sources */,
+				1689924C149A3AEA005F4A38 /* EnvibusMainViewController.m in Sources */,
+				1689924F149A3AEA005F4A38 /* EnvibusFlipsideViewController.m in Sources */,
+				16899260149A3C23005F4A38 /* EnvibusAddStationViewController.m in Sources */,
+				16899270149A3D52005F4A38 /* HTMLNode.m in Sources */,
+				16899271149A3D52005F4A38 /* HTMLParser.m in Sources */,
+				16C0E3AE149B58B600C507E2 /* Constants.m in Sources */,
+				16C1ED33149DFC6800A65A63 /* Utilities.m in Sources */,
+				16867624149F73ED00A1D738 /* Station.m in Sources */,
+				16EA48F5149FD2B60000EBF9 /* EnvibusMainContentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1689923B149A3AEA005F4A38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1689923C149A3AEA005F4A38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16899244149A3AEA005F4A38 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = MainStoryboard.storyboard;
+			path = /Users/bpeng/Documents/Envibus/Envibus;
+			sourceTree = "<absolute>";
+		};
+		1689925B149A3B74005F4A38 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1689925C149A3B74005F4A38 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16899250149A3AEA005F4A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16899251149A3AEA005F4A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16899253149A3AEA005F4A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Envibus/Envibus-Prefix.pch";
+				INFOPLIST_FILE = "Envibus/Envibus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16899254149A3AEA005F4A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Envibus/Envibus-Prefix.pch";
+				INFOPLIST_FILE = "Envibus/Envibus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16899226149A3AE9005F4A38 /* Build configuration list for PBXProject "Envibus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16899250149A3AEA005F4A38 /* Debug */,
+				16899251149A3AEA005F4A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16899252149A3AEA005F4A38 /* Build configuration list for PBXNativeTarget "Envibus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16899253149A3AEA005F4A38 /* Debug */,
+				16899254149A3AEA005F4A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16899247149A3AEA005F4A38 /* Envibus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16899248149A3AEA005F4A38 /* Envibus.xcdatamodel */,
+			);
+			currentVersion = 16899248149A3AEA005F4A38 /* Envibus.xcdatamodel */;
+			path = Envibus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16899223149A3AE9005F4A38 /* Project object */;
+}
